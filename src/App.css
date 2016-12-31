@@ -24,6 +24,9 @@
   font-size: 12px;
 }
 
+.brown { color: #746254; }
+.bg-brown { background-color: #746254; }
+
 .current-sprite {
   height: 5rem;
 }

@@ -11,11 +11,13 @@ class CurrentCollection extends Component {
     const imgNinetales  = require('../../img/ninetales-alola.gif');
     const imgKommo      = require('../../img/kommo-o.gif');
     const imgDecidueye  = require('../../img/decidueye.gif');
+    const imgToucannon  = require('../../img/trumbeak.gif');
+    const imgLycanroc  = require('../../img/rockruff.gif');
 
     return (
       <div id="current" className="pv5 center content-end flex flex-wrap cf">
         <h1 className="f4 db ph3 mb4">Pokémon Sun - Regular</h1>
-        <div className="mb4 content-end flex flex-wrap">
+        <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
             currentImg={imgPrimarina}
             currentAlt="Primarina Sprite"
@@ -103,49 +105,77 @@ class CurrentCollection extends Component {
         </div>
 
         <h1 className="f4 db ph3 mb4">Pokémon Moon - Full Shiny Team</h1>
-        <div className="mb4 content-end flex flex-wrap">
+        <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
-            currentImg={imgPrimarina}
-            currentAlt="Primarina Sprite"
+            currentImg={imgToucannon}
+            currentAlt="Shiny Trumbeak Sprite"
             currentName="Italic"
-            currentActualName="Incineroar"
+            currentActualName="Shiny Trumbeak"
             currentNumber="123"
-            currentNameColor="blue"
-            typeNameOne="Water"
-            typeBackgroundOne="type-tag bg-blue"
-            typeNameTwo="Fairy"
-            typeBackgroundTwo="type-tag bg-pink"
-            nature="Sassy"
-            ability="Torrent"
-            item="Mystic Water" />
+            currentNameColor="black-50"
+            typeNameOne="Normal"
+            typeBackgroundOne="type-tag bg-black-50"
+            typeNameTwo="Flying"
+            typeBackgroundTwo="type-tag bg-navy"
+            nature="Hardy"
+            ability="Keen Eye"
+            item="Normalium Z" />
           <Current
-            currentImg={imgPrimarina}
-            currentAlt="Primarina Sprite"
-            currentName="Italic"
-            currentActualName="Incineroar"
-            currentNumber="123"
-            currentNameColor="blue"
-            typeNameOne="Water"
-            typeBackgroundOne="type-tag bg-blue"
-            typeNameTwo="Fairy"
-            typeBackgroundTwo="type-tag bg-pink"
-            nature="Sassy"
-            ability="Torrent"
-            item="Mystic Water" />
+            currentImg={imgLycanroc}
+            currentAlt="Shiny Rockruff Sprite"
+            currentName="Serif"
+            currentActualName="Shiny Rockruff"
+            currentNumber="103"
+            currentNameColor="brown"
+            typeNameOne="Rock"
+            typeBackgroundOne="type-tag bg-brown"
+            nature="Hasty"
+            ability="Keen Eye"
+            item="None" />
           <Current
-            currentImg={imgPrimarina}
-            currentAlt="Primarina Sprite"
-            currentName="Italic"
-            currentActualName="Incineroar"
-            currentNumber="123"
-            currentNameColor="blue"
-            typeNameOne="Water"
-            typeBackgroundOne="type-tag bg-blue"
-            typeNameTwo="Fairy"
-            typeBackgroundTwo="type-tag bg-pink"
-            nature="Sassy"
-            ability="Torrent"
-            item="Mystic Water" />
+            currentName="Not Caught Yet!"
+            currentActualName="Not Caught Yet!"
+            currentNameColor="black-30"
+            typeNameOne="N/A"
+            typeBackgroundOne="type-tag bg-black-30"
+            typeNameTwo="N/A"
+            typeBackgroundTwo="type-tag bg-black-30"
+            nature="N/A"
+            ability="N/A"
+            item="N/A" />
+          <Current
+            currentName="Not Caught Yet!"
+            currentActualName="Not Caught Yet!"
+            currentNameColor="black-30"
+            typeNameOne="N/A"
+            typeBackgroundOne="type-tag bg-black-30"
+            typeNameTwo="N/A"
+            typeBackgroundTwo="type-tag bg-black-30"
+            nature="N/A"
+            ability="N/A"
+            item="N/A" />
+          <Current
+            currentName="Not Caught Yet!"
+            currentActualName="Not Caught Yet!"
+            currentNameColor="black-30"
+            typeNameOne="N/A"
+            typeBackgroundOne="type-tag bg-black-30"
+            typeNameTwo="N/A"
+            typeBackgroundTwo="type-tag bg-black-30"
+            nature="N/A"
+            ability="N/A"
+            item="N/A" />
+          <Current
+            currentName="Not Caught Yet!"
+            currentActualName="Not Caught Yet!"
+            currentNameColor="black-30"
+            typeNameOne="N/A"
+            typeBackgroundOne="type-tag bg-black-30"
+            typeNameTwo="N/A"
+            typeBackgroundTwo="type-tag bg-black-30"
+            nature="N/A"
+            ability="N/A"
+            item="N/A" />
         </div>
       </div>
     );
