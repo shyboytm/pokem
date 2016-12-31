@@ -4,10 +4,14 @@ import PokedexItem from '../PokedexItem';
 
 class Pokedex extends Component {
   render() {
+
+    const imgPrimarina  = require('../../img/primarina.gif');
+
     return (
       <div className="">
         <h1>Pokédex</h1>
-        <PokedexItem />
+        <PokedexItem
+          pokedexItemImg={imgPrimarina} />
       </div>
     );
   }
