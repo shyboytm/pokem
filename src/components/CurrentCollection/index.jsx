@@ -11,8 +11,8 @@ class CurrentCollection extends Component {
     const imgNinetales  = require('../../img/ninetales-alola.gif');
     const imgKommo      = require('../../img/kommo-o.gif');
     const imgDecidueye  = require('../../img/decidueye.gif');
-    const imgToucannon  = require('../../img/trumbeak.gif');
-    const imgLycanroc  = require('../../img/rockruff.gif');
+    const imgToucannon  = require('../../img/toucannon.gif');
+    const imgLycanroc  = require('../../img/lycanroc-midnight.gif');
 
     return (
       <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
@@ -104,7 +104,7 @@ class CurrentCollection extends Component {
             item="Miracle Seed" />
         </div>
 
-        <h1 className="f4 db ph5 mb4 purple lh-title">Pokémon Moon Team - Full Shiny Team</h1>
+        <h1 className="f4 db ph5 mb4 purple center lh-title">Pokémon Moon Team - All Shiny</h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
             currentImg={imgToucannon}
@@ -122,10 +122,10 @@ class CurrentCollection extends Component {
             item="Normalium Z" />
           <Current
             currentImg={imgLycanroc}
-            currentAlt="Shiny Rockruff Sprite"
+            currentAlt="Shiny Lycanroc Sprite"
             currentName="Serif"
-            currentActualName="Shiny Rockruff"
-            currentNumber="103"
+            currentActualName="Shiny Lycanroc"
+            currentNumber="104"
             currentNameColor="brown"
             typeNameOne="Rock"
             typeBackgroundOne="type-tag bg-brown"

@@ -36,12 +36,12 @@ class Current extends Component {
               <dd className="ml0 black-70">{ability}</dd>
               <dt className="f6 b mt2">Item</dt>
               <dd className="ml0 black-70">{item}</dd>
-              <dl className="lh-copy tl">
+              {/* <dl className="lh-copy tl">
                 <dt className="f6 b">Moveset</dt>
                 <dd className="ml0 purple">{nature}</dd>
                 <dd className="ml0 red">{ability}</dd>
                 <dd className="ml0 blue">{item}</dd>
-              </dl>
+              </dl> */}
             </dl>
           </div>
         </div>
