@@ -15,8 +15,8 @@ class CurrentCollection extends Component {
     const imgLycanroc  = require('../../img/rockruff.gif');
 
     return (
-      <div id="current" className="pv5 center content-end flex flex-wrap cf">
-        <h1 className="f4 db ph3 mb4">Pokémon Sun - Regular</h1>
+      <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
+        <h1 className="f4 db ph5 lh-title mb4 center orange">Pokémon Sun Team - Regular</h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
             currentImg={imgPrimarina}
@@ -104,7 +104,7 @@ class CurrentCollection extends Component {
             item="Miracle Seed" />
         </div>
 
-        <h1 className="f4 db ph3 mb4">Pokémon Moon - Full Shiny Team</h1>
+        <h1 className="f4 db ph5 mb4 purple lh-title">Pokémon Moon Team - Full Shiny Team</h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
             currentImg={imgToucannon}

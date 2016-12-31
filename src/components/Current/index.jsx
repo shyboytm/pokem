@@ -6,7 +6,6 @@ class Current extends Component {
   render() {
 
     const {
-      title,
       currentImg,
       currentAlt,
       currentNameColor,
