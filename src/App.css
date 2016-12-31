@@ -24,6 +24,12 @@
   font-size: 12px;
 }
 
+.current-sprite {
+  height: 5rem;
+}
+
+.shadow-custom { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.08); transition: box-shadow 0.5s;}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
