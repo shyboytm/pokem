@@ -13,6 +13,17 @@
                'Liberation Sans', /* Linux */
                sans-serif; /* Everything else */ }
 
+.type-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
