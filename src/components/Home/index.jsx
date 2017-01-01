@@ -21,6 +21,11 @@ class Home extends Component {
             of my teams and my Pokédex for Sun and Moon in a fun and
             customizable way.
           </p>
+          <p className="center black-60 measure lh-copy">
+            I'm currently playing the post-game of Sun with the first team below
+            and at the beginning of a shiny locke playthrough of Moon with 2/6
+            caught so far.
+          </p>
         </div>
         <div id="home-content" className="pv2 mw8 center w-90-ns w-100">
           <CurrentCollection />

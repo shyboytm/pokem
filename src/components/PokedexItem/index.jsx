@@ -3,12 +3,10 @@ import React, { Component } from 'react';
 class PokedexItem extends Component {
   render() {
 
-    const { pokedexItemImg } = this.props;
-
     return (
-      <div className="ph3 items-start w-25-l w-50-m w-80 center mb4">
+      <div className="ph3 items-start w-20-l w-50-m w-80 center mb4">
         <div className="ba b--black-10 pt3 pb2 ph4 br3 tc">
-          <img src={pokedexItemImg} className="w3 center" alt="Pokemon Sprit" />
+          {/* <img className="w3 center" alt="Pokemon Sprite" /> */}
           <dl className="lh-copy tc">
             <dt className="f5 b">Pokemon Name</dt>
             <dd className="f6 ml0 black-70">Pokemon #</dd>

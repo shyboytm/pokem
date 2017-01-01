@@ -9,10 +9,10 @@ class CurrentCollection extends Component {
     const imgIncineroar = require('../../img/incineroar.gif');
     const imgRaichu     = require('../../img/raichu-alola.gif');
     const imgNinetales  = require('../../img/ninetales-alola.gif');
-    const imgKommo      = require('../../img/kommo-o.gif');
+    const imgGarchomp   = require('../../img/garchomp.gif');
     const imgDecidueye  = require('../../img/decidueye.gif');
     const imgToucannon  = require('../../img/toucannon.gif');
-    const imgLycanroc  = require('../../img/lycanroc-midnight.gif');
+    const imgLycanroc   = require('../../img/lycanroc-midnight.gif');
 
     return (
       <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
@@ -75,18 +75,18 @@ class CurrentCollection extends Component {
             ability="Snow Warning"
             item="Never-Melt Ice" />
           <Current
-            currentImg={imgKommo}
-            currentAlt="Kommo-o Sprite"
+            currentImg={imgGarchomp}
+            currentAlt="Garchomp Sprite"
             currentName="Bold"
-            currentActualName="Kommo-o"
-            currentNumber="273"
+            currentActualName="Garchomp"
+            currentNumber="239"
             currentNameColor="purple"
             typeNameOne="Dragon"
             typeBackgroundOne="type-tag bg-purple"
-            typeNameTwo="Fighting"
+            typeNameTwo="Ground"
             typeBackgroundTwo="type-tag bg-orange"
-            nature="Lax"
-            ability="Bulletproof"
+            nature="Adamant"
+            ability="Sand Veil"
             item="Leftovers" />
           <Current
             currentImg={imgDecidueye}
