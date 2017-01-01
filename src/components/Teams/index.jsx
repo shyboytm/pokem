@@ -4,10 +4,10 @@ import Header from '../Header';
 import CurrentCollection from '../CurrentCollection';
 import Pokedex from '../Pokedex';
 
-class Teams extends Component {
+class Home extends Component {
   render() {
     return (
-      <div id="teams" className="bg-black-05">
+      <div id="home" className="bg-black-05">
         <Header />
         <div className="w-80 center pt5">
           <p className="center black measure lh-copy">
@@ -29,10 +29,13 @@ class Teams extends Component {
         </div>
         <div id="home-content" className="pv2 mw8 center w-90-ns w-100">
           <CurrentCollection />
+          <h1 className="f4 db ph2 lh-title mb2 tc center black">Pokédex Completion</h1>
+          <span className="f5 db ph2 lh-title mb0-ns mb3 tc center black-50">★ = Shiny</span>
+          <Pokedex />
         </div>
       </div>
     );
   }
 }
 
-export default Teams;
+export default Home;

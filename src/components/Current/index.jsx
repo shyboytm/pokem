@@ -22,7 +22,7 @@ class Current extends Component {
 
     return (
       <div className="ph3 items-start w-33-l w-50-m w-80 center mb4">
-        <div className="pt3 shadow-custom bg-white w-100 br3 ba b--black-10">
+        <div className="pt3 shadow-custom bg-white w-100 br3">
           <div id="team-pokemon" className="tc ph4 pv3">
             <img src={currentImg} className="current-sprite center" alt={currentAlt} />
             <h2 className={currentNameColor}>{currentName}</h2>
