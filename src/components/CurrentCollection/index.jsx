@@ -5,7 +5,8 @@ import Current from '../Current';
 class CurrentCollection extends Component {
   render() {
 
-    const sunLogo   = require('../../img/pokemon-sun-logo.png');
+    const sunLogo    = require('../../img/pokemon-sun-logo.png');
+    const moonLogo   = require('../../img/pokemon-moon-logo.png');
 
     const imgPrimarina  = require('../../img/primarina.gif');
     const imgIncineroar = require('../../img/incineroar.gif');
@@ -20,7 +21,7 @@ class CurrentCollection extends Component {
       <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
         <h1 className="f4 db ph5 lh-title mb4 center orange">
           <img src={sunLogo} className="nb2 pr2 dib-ns db pb0-ns pb4 center w2-ns h2-ns w3 h3" alt="★" />
-          Pokémon Sun Team - Regular
+          Current Sun Team - Regular
         </h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
@@ -109,7 +110,10 @@ class CurrentCollection extends Component {
             item="Miracle Seed" />
         </div>
 
-        <h1 className="f4 db ph5 mb4 purple center lh-title">Pokémon Moon Team - All Shiny</h1>
+        <h1 className="f4 db ph5 mb4 blue center lh-title">
+          <img src={moonLogo} className="nb2 pr2 dib-ns db pb0-ns pb4 center w2-ns h2-ns w3 h3" alt="★" />
+          Current Moon Team - Shiny
+        </h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
             currentImg={imgToucannon}
