@@ -58,6 +58,8 @@
   color: white !important;
 }
 
+.tracked-custom { letter-spacing: .075rem; }
+
 .brown { color: #746254; }
 .bg-brown { background-color: #746254; }
 
@@ -65,7 +67,7 @@
   height: 5rem;
 }
 
-.shadow-custom { box-shadow: 0px 5px 50px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
+.shadow-custom { box-shadow: 0px 5px 50px 0px rgba(0,0,0, 0.08); transition: box-shadow 0.5s;}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
