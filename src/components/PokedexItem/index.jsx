@@ -3,14 +3,20 @@ import React, { Component } from 'react';
 class PokedexItem extends Component {
   render() {
 
+    const {
+      caughtOrUncaught,
+      pokemonName,
+      pokemonNumber
+    } = this.props;
+
     return (
-      <div className="ph3 items-start w-20-l w-50-m w-80 center mb4">
-        <div className="ba b--black-10 pt3 pb2 ph4 br3 tc">
+      <div className="ph3 items-start w-20-l w-33-m w-50 center mb4">
+        <div className={caughtOrUncaught}>
           {/* <img className="w3 center" alt="Pokemon Sprite" /> */}
           <dl className="lh-copy tc">
-            <dt className="f5 b">Pokemon Name</dt>
-            <dd className="f6 ml0 black-70">Pokemon #</dd>
-            <dt className="f6 b mt3 red ttu tracked">Uncaught</dt>
+            <dt className="f5 b">{pokemonName}</dt>
+            <dd className="f6 ml0">{pokemonNumber}</dd>
+            <dt className="f6 b mt3 ttu tracked">{caughtOrUncaught}</dt>
           </dl>
         </div>
       </div>

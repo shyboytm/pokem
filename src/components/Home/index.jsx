@@ -29,6 +29,8 @@ class Home extends Component {
         </div>
         <div id="home-content" className="pv2 mw8 center w-90-ns w-100">
           <CurrentCollection />
+          <h1 className="f4 db ph2 lh-title mb2 tc center black">Pokédex Completion</h1>
+          <span className="f5 db ph2 lh-title mb0-ns mb3 tc center black-50">★ = Shiny</span>
           <Pokedex />
         </div>
       </div>

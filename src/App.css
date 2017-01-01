@@ -24,6 +24,40 @@
   font-size: 12px;
 }
 
+.caught-text {
+  font-size: .875rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  letter-spacing: .1em;
+  font-weight: 700;
+}
+
+.uncaught {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  border-radius: .5rem;
+  border-color: rgba(0,0,0,.1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.caught {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  border-radius: .5rem;
+  border-color: rgba(0,0,0,.1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #19a974;
+  color: white !important;
+}
+
 .brown { color: #746254; }
 .bg-brown { background-color: #746254; }
 
