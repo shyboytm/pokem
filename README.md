@@ -1,8 +1,8 @@
-#Poke
+#Pokem
 
 Personal Pokemon team and Pokedex tracker of Dennis Cortés.
 
-Hosted on [poke.cortes.us](http://poke.cortes.us)
+Hosted on [pokem.cortes.us](http://pokem.cortes.us)
 
 ##Get Started
 
