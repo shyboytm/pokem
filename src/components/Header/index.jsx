@@ -19,7 +19,7 @@ class Header extends Component {
         <div className="db w-100 tc pv3 bg-white bb b--black-10">
           <Link to="/" title="Teams" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Teams</Link>
           <Link to="/pokedex" title="Pokedex" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Pokédex</Link>
-          <Link to="/privacy/"  title="Privacy" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Games</Link>
+          {/* <Link to="/privacy/"  title="Privacy" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Games</Link> */}
           <Link to="/privacy/"  title="Privacy" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Resources</Link>
         </div>
       </div>
