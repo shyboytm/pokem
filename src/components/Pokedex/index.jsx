@@ -11,7 +11,7 @@ class Pokedex extends Component {
         <Header />
         <div className="pt5 mw8 center">
           <h1 className="f4 db ph5 lh-title tc black">Pokedex Completion</h1>
-          <h1 className="f2 fw4 db ph5 lh-title pt4 pb3 tc green">43% Complete</h1>
+          <h1 className="f2 fw4 db ph5 lh-title pt4 pb3 tc green">45% Complete</h1>
           {/* <span className="f5 db ph2 lh-title mb0-ns mb3 tc center black-50">★ = Shiny</span> */}
           <div className="pv5-ns pv3 center content-end flex flex-wrap cf">
             <PokedexItem caughtOrUncaught="caught" pokemonName="Rowlet" pokemonNumber="#001" />
@@ -108,7 +108,7 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vullaby" pokemonNumber="#077" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Mandibuzz" pokemonNumber="#078" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Mankey" pokemonNumber="#079" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Primeape" pokemonNumber="#080" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Primeape" pokemonNumber="#080" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Delibird" pokemonNumber="#081" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Oricorio" pokemonNumber="#082" />
@@ -120,7 +120,7 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Cottonee" pokemonNumber="#087" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Whimsicott" pokemonNumber="#088" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Psyduck" pokemonNumber="#089" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Golduck" pokemonNumber="#090" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Golduck" pokemonNumber="#090" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Magikarp" pokemonNumber="#091" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Gyarados" pokemonNumber="#092" />
@@ -211,6 +211,114 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Cubone" pokemonNumber="#163" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Marowak" pokemonNumber="#164" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Kangaskhan" pokemonNumber="#165" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magby" pokemonNumber="#166" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magmar" pokemonNumber="#167" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magmortar" pokemonNumber="#168" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Stufful" pokemonNumber="#169" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Bewear" pokemonNumber="#170" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Bounsweet" pokemonNumber="#171" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Steenee" pokemonNumber="#172" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tsareena" pokemonNumber="#173" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Comfey" pokemonNumber="#174" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Pinsir" pokemonNumber="#175" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Oranguru" pokemonNumber="#176" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Passimian" pokemonNumber="#177" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Goomy" pokemonNumber="#178" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sliggoo" pokemonNumber="#179" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Goodra" pokemonNumber="#180" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Castform" pokemonNumber="#181" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Wimpod" pokemonNumber="#182" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Golisopod" pokemonNumber="#183" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Staryu" pokemonNumber="#184" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Starmie" pokemonNumber="#185" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sandygast" pokemonNumber="#186" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Palossand" pokemonNumber="#187" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Cranidos" pokemonNumber="#188" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Rampardos" pokemonNumber="#189" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Shieldon" pokemonNumber="#190" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Bastiodon" pokemonNumber="#191" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Archen" pokemonNumber="#192" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Archeops" pokemonNumber="#193" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tirouga" pokemonNumber="#194" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Carracosta" pokemonNumber="#195" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Phantump" pokemonNumber="#196" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Trevenant" pokemonNumber="#197" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Nosepass" pokemonNumber="#198" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Probopass" pokemonNumber="#199" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Pyukumuku" pokemonNumber="#200" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Chinchou" pokemonNumber="#201" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Lanturn" pokemonNumber="#202" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Type: Null" pokemonNumber="#203" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Silvally" pokemonNumber="#204" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Zygarde" pokemonNumber="#205" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Trubbish" pokemonNumber="#206" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Garbodor" pokemonNumber="#207" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Skarmory" pokemonNumber="#208" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Ditto" pokemonNumber="#209" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Cleffa" pokemonNumber="#210" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Clefairy" pokemonNumber="#211" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Clefable" pokemonNumber="#212" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Minior" pokemonNumber="#213" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Beldum" pokemonNumber="#214" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Metang" pokemonNumber="#215" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Metagross" pokemonNumber="#216" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Porygon" pokemonNumber="#217" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Porygon2" pokemonNumber="#218" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Porygon-Z" pokemonNumber="#219" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Pancham" pokemonNumber="#220" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Pangoro" pokemonNumber="#221" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Komala" pokemonNumber="#222" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Torkoal" pokemonNumber="#223" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Turtonator" pokemonNumber="#224" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Togedemaru" pokemonNumber="#225" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Elekid" pokemonNumber="#226" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Electabuzz" pokemonNumber="#227" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Electivire" pokemonNumber="#228" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Geodude" pokemonNumber="#229" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Graveler" pokemonNumber="#230" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Golem" pokemonNumber="#231" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sandile" pokemonNumber="#232" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Krokorok" pokemonNumber="#233" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Krookodile" pokemonNumber="#234" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Trapinch" pokemonNumber="#235" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vibrava" pokemonNumber="#236" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Flygon" pokemonNumber="#237" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Gible" pokemonNumber="#238" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Gabite" pokemonNumber="#239" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Garchomp" pokemonNumber="#240" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Klefki" pokemonNumber="#241" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Mimikyu" pokemonNumber="#242" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Bruxish" pokemonNumber="#243" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Drampa" pokemonNumber="#244" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Absol" pokemonNumber="#245" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sandshrew" pokemonNumber="#246" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sandslash" pokemonNumber="#247" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Vulpix" pokemonNumber="#248" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Ninetails" pokemonNumber="#249" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vanillite" pokemonNumber="#250" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Klefki" pokemonNumber="#241" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Mimikyu" pokemonNumber="#242" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Bruxish" pokemonNumber="#243" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Drampa" pokemonNumber="#244" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Absol" pokemonNumber="#245" />
           </div>
         </div>
       </div>
