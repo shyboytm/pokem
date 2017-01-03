@@ -308,17 +308,75 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Drampa" pokemonNumber="#244" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Absol" pokemonNumber="#245" />
 
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Sandshrew" pokemonNumber="#246" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sandslash" pokemonNumber="#247" />
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Vulpix" pokemonNumber="#248" />
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Ninetails" pokemonNumber="#249" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vanillite" pokemonNumber="#250" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Snorunt" pokemonNumber="#246" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Glalie" pokemonNumber="#247" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Froslass" pokemonNumber="#248" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sneasel" pokemonNumber="#249" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Weavile" pokemonNumber="#250" />
 
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Klefki" pokemonNumber="#241" />
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Mimikyu" pokemonNumber="#242" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Bruxish" pokemonNumber="#243" />
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Drampa" pokemonNumber="#244" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Absol" pokemonNumber="#245" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sandshrew" pokemonNumber="#251" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sandslash" pokemonNumber="#252" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Vulpix" pokemonNumber="#253" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Ninetails" pokemonNumber="#254" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vanillite" pokemonNumber="#255" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vanillish" pokemonNumber="#256" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vanilluxe" pokemonNumber="#257" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Snubbull" pokemonNumber="#258" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Granbull" pokemonNumber="#259" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Shellos" pokemonNumber="#260" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Gastrodon" pokemonNumber="#261" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Relicanth" pokemonNumber="#262" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Dhelmise" pokemonNumber="#263" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Carvanha" pokemonNumber="#264" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sharpedo" pokemonNumber="#265" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Wailmer" pokemonNumber="#266" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Wailord" pokemonNumber="#267" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Lapras" pokemonNumber="#268" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Exeggcute" pokemonNumber="#269" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Exeggutor" pokemonNumber="#270" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Jangmo-o" pokemonNumber="#271" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Hakamo-o" pokemonNumber="#272" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Kommo-o" pokemonNumber="#273" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Emolga" pokemonNumber="#274" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Scyther" pokemonNumber="#275" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Scizor" pokemonNumber="#276" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Murkrow" pokemonNumber="#277" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Honchkrow" pokemonNumber="#278" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Riolu" pokemonNumber="#279" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Lucario" pokemonNumber="#280" />
+
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Dratini" pokemonNumber="#281" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Dragonair" pokemonNumber="#282" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Dragonite" pokemonNumber="#283" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Emolga" pokemonNumber="#284" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Aerodactyl" pokemonNumber="#285" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tapu Koko" pokemonNumber="#286" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tapu Lele" pokemonNumber="#287" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tapu Bulu" pokemonNumber="#288" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tapu Fini" pokemonNumber="#289" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Cosmog" pokemonNumber="#290" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Cosmoem" pokemonNumber="#291" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Solgaleo" pokemonNumber="#292" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Lunala" pokemonNumber="#293" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Nihilego" pokemonNumber="#294" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Buzzwole" pokemonNumber="#295" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Pheromosa" pokemonNumber="#296" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Xurkitree" pokemonNumber="#297" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Celesteela" pokemonNumber="#298" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Kartana" pokemonNumber="#299" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Guzzlord" pokemonNumber="#300" />
+
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Necrozma" pokemonNumber="#291" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magearna" pokemonNumber="#292" />
+            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Marshadow" pokemonNumber="#293" />
           </div>
         </div>
       </div>
