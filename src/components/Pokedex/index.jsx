@@ -11,7 +11,7 @@ class Pokedex extends Component {
         <Header />
         <div className="pt5 mw8 center">
           <h1 className="f4 db ph5 lh-title tc black">Pokedex Completion</h1>
-          <h1 className="f2 fw4 db ph5 lh-title pt4 pb3 tc green">45% Complete</h1>
+          <h1 className="f2 fw4 db ph5 lh-title pt4 pb3 tc green">49% Complete</h1>
           {/* <span className="f5 db ph2 lh-title mb0-ns mb3 tc center black-50">★ = Shiny</span> */}
           <div className="pv5-ns pv3 center content-end flex flex-wrap cf">
             <PokedexItem caughtOrUncaught="caught" pokemonName="Rowlet" pokemonNumber="#001" />
@@ -32,7 +32,7 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Gumshoos" pokemonNumber="#014" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="A. Rattata" pokemonNumber="#015" />
 
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="A. Raticate" pokemonNumber="#016" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="A. Raticate" pokemonNumber="#016" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Caterpie" pokemonNumber="#017" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Metapod" pokemonNumber="#018" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Butterfree" pokemonNumber="#019" />
@@ -40,14 +40,14 @@ class Pokedex extends Component {
 
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Ledian" pokemonNumber="#021" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Spinarak" pokemonNumber="#022" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Ariados" pokemonNumber="#023" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Ariados" pokemonNumber="#023" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Pichu" pokemonNumber="#024" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Pikachu" pokemonNumber="#025" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Raichu" pokemonNumber="#026" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Grubbin" pokemonNumber="#027" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Charjabug" pokemonNumber="#028" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vikavolt" pokemonNumber="#029" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Charjabug" pokemonNumber="#028" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Vikavolt" pokemonNumber="#029" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Bonsly" pokemonNumber="#030" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Sudowoodo" pokemonNumber="#031" />
@@ -72,9 +72,9 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magnemite" pokemonNumber="#047" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magneton" pokemonNumber="#048" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Magnezone" pokemonNumber="#049" />
-            <PokedexItem caughtOrUncaught="caught" pokemonName="A. Grimer" pokemonNumber="#050" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="A. Grimer" pokemonNumber="#050" />
 
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="A. Muk" pokemonNumber="#051" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="A. Muk" pokemonNumber="#051" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Growlithe" pokemonNumber="#052" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Arcanine" pokemonNumber="#053" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Drowzee" pokemonNumber="#054" />
@@ -137,7 +137,8 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Carbink" pokemonNumber="#101" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Sableye" pokemonNumber="#102" />
             <PokedexItem caughtOrUncaught="shiny" pokemonName="Rockruff" pokemonNumber="#103" />
-            <PokedexItem caughtOrUncaught="shiny" pokemonName="Lycanroc" pokemonNumber="#104" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="Lycanroc N" pokemonNumber="#104" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="Lycanroc D" pokemonNumber="#104" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Spinda" pokemonNumber="#105" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Tentacool" pokemonNumber="#106" />
@@ -226,9 +227,9 @@ class Pokedex extends Component {
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Oranguru" pokemonNumber="#176" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Passimian" pokemonNumber="#177" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Goomy" pokemonNumber="#178" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sliggoo" pokemonNumber="#179" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Goodra" pokemonNumber="#180" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Goomy" pokemonNumber="#178" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sliggoo" pokemonNumber="#179" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Goodra" pokemonNumber="#180" />
 
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Castform" pokemonNumber="#181" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Wimpod" pokemonNumber="#182" />
@@ -276,9 +277,9 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Porygon" pokemonNumber="#217" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Porygon2" pokemonNumber="#218" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Porygon-Z" pokemonNumber="#219" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Pancham" pokemonNumber="#220" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Pancham" pokemonNumber="#220" />
 
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Pangoro" pokemonNumber="#221" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="Pangoro" pokemonNumber="#221" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Komala" pokemonNumber="#222" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Torkoal" pokemonNumber="#223" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Turtonator" pokemonNumber="#224" />
@@ -347,7 +348,7 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Scizor" pokemonNumber="#276" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Murkrow" pokemonNumber="#277" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Honchkrow" pokemonNumber="#278" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Riolu" pokemonNumber="#279" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Riolu" pokemonNumber="#279" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Lucario" pokemonNumber="#280" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Dratini" pokemonNumber="#281" />
