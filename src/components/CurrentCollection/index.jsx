@@ -8,6 +8,13 @@ class CurrentCollection extends Component {
     const sunLogo    = require('../../img/pokemon-sun-logo.png');
     const moonLogo   = require('../../img/pokemon-moon-logo.png');
 
+    const imgPangoro    = require('../../img/pangoro.gif');
+    const imgMuk        = require('../../img/muk-alola.gif');
+    const imgLycanrocD  = require('../../img/lycanroc-midday.gif');
+    const imgGoodra     = require('../../img/goodra.gif');
+    const imgMimikyu    = require('../../img/mimikyu.gif');
+    const imgVikavolt   = require('../../img/vikavolt.gif');
+
     const imgPrimarina  = require('../../img/primarina.gif');
     const imgIncineroar = require('../../img/incineroar.gif');
     const imgRaichu     = require('../../img/raichu-alola.gif');
@@ -15,104 +22,100 @@ class CurrentCollection extends Component {
     const imgGarchomp   = require('../../img/garchomp.gif');
     const imgDecidueye  = require('../../img/decidueye.gif');
     const imgToucannon  = require('../../img/toucannon.gif');
-    const imgLycanroc   = require('../../img/lycanroc-midnight.gif');
+    const imgLycanrocM   = require('../../img/lycanroc-midnight.gif');
 
     return (
       <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
         <h1 className="f4 db ph5 lh-title mb4 center orange">
           <img src={sunLogo} className="nb2 pr2 dib-ns db pb0-ns pb4 center w2-ns h2-ns w3 h3" alt="★" />
-          Current Sun Team - Regular
+          Current Sun Team
         </h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
-            currentImg={imgPrimarina}
-            currentAlt="Primarina Sprite"
-            currentName="Italic"
-            currentActualName="Primarina"
-            currentNumber="009"
-            currentNameColor="blue"
-            typeNameOne="Water"
-            typeBackgroundOne="type-tag bg-blue"
-            typeNameTwo="Fairy"
-            typeBackgroundTwo="type-tag bg-pink"
-            nature="Sassy"
-            ability="Torrent"
-            item="Mystic Water" />
-          <Current
-            currentImg={imgIncineroar}
-            currentAlt="Incineroar Sprite"
-            currentName="Sash"
-            currentActualName="Incineroar"
-            currentNumber="006"
-            currentNameColor="red"
-            typeNameOne="Fire"
-            typeBackgroundOne="type-tag bg-red"
+            currentImg={imgPangoro}
+            currentAlt="Pangoro Sprite"
+            currentName="Thaii"
+            currentActualName="Shiny Pangoro"
+            currentNumber="221"
+            currentNameColor="brown"
+            typeNameOne="Fighting"
+            typeBackgroundOne="type-tag bg-light-red"
             typeNameTwo="Dark"
             typeBackgroundTwo="type-tag bg-black"
-            nature="Brave"
-            ability="Blaze"
-            item="Incinium Z" />
+            nature="Hardy"
+            ability="Iron Fist"
+            item="Scope Lens" />
           <Current
-            currentImg={imgRaichu}
-            currentAlt="A. Raichu Sprite"
-            currentName="Mila"
-            currentActualName="A. Raichu"
-            currentNumber="026"
-            currentNameColor="gold"
-            typeNameOne="Electric"
-            typeBackgroundOne="type-tag bg-gold"
-            typeNameTwo="Psychic"
-            typeBackgroundTwo="type-tag bg-dark-pink"
-            nature="Impish"
-            ability="Surge Surfer"
-            item="Aloraichium Z" />
+            currentImg={imgMuk}
+            currentAlt="A. Muk Sprite"
+            currentName="Bleh"
+            currentActualName="Shiny A. Muk"
+            currentNumber="051"
+            currentNameColor="light-purple"
+            typeNameOne="Poison"
+            typeBackgroundOne="type-tag bg-light-purple"
+            typeNameTwo="Dark"
+            typeBackgroundTwo="type-tag bg-black"
+            nature="Lonely"
+            ability="Poison Touch"
+            item="Leftovers" />
           <Current
-            currentImg={imgNinetales}
-            currentAlt="A. Ninetales Sprite"
-            currentName="Lillie"
-            currentActualName="A. Ninetales"
-            currentNumber="254"
-            currentNameColor="light-blue"
-            typeNameOne="Ice"
-            typeBackgroundOne="type-tag bg-light-blue"
-            typeNameTwo="Fairy"
-            typeBackgroundTwo="type-tag bg-pink"
-            nature="Adamant"
-            ability="Snow Warning"
-            item="Never-Melt Ice" />
+            currentImg={imgLycanrocD}
+            currentAlt="Lycanroc Midday Sprite"
+            currentName="Ollie"
+            currentActualName="Shiny Lycanroc"
+            currentNumber="104"
+            currentNameColor="brown"
+            typeNameOne="Rock"
+            typeBackgroundOne="type-tag bg-brown"
+            nature="Hardy"
+            ability="Keen Eye"
+            item="Hard Stone" />
           <Current
-            currentImg={imgGarchomp}
-            currentAlt="Garchomp Sprite"
-            currentName="Bold"
-            currentActualName="Garchomp"
-            currentNumber="239"
+            currentImg={imgGoodra}
+            currentAlt="Goodra Sprite"
+            currentName="Doe"
+            currentActualName="Goodra"
+            currentNumber="180"
             currentNameColor="purple"
             typeNameOne="Dragon"
             typeBackgroundOne="type-tag bg-purple"
-            typeNameTwo="Ground"
-            typeBackgroundTwo="type-tag bg-orange"
             nature="Adamant"
-            ability="Sand Veil"
+            ability="Hydration"
             item="Leftovers" />
           <Current
-            currentImg={imgDecidueye}
-            currentAlt="Decidueye Sprite"
-            currentName="Sans"
-            currentActualName="Decidueye"
-            currentNumber="003"
-            currentNameColor="green"
-            typeNameOne="Grass"
-            typeBackgroundOne="type-tag bg-green"
-            typeNameTwo="Ghost"
-            typeBackgroundTwo="type-tag bg-dark-blue"
-            nature="Sassy"
-            ability="Overgrow"
-            item="Miracle Seed" />
+            currentImg={imgMimikyu}
+            currentAlt="Mimikyu Sprite"
+            currentName="Mimo"
+            currentActualName="Mimikyu"
+            currentNumber="242"
+            currentNameColor="dark-blue"
+            typeNameOne="Ghost"
+            typeBackgroundOne="type-tag bg-dark-blue"
+            typeNameTwo="Fairy"
+            typeBackgroundTwo="type-tag bg-pink"
+            nature="Naughty"
+            ability="Disguise"
+            item="Life Orb" />
+          <Current
+            currentImg={imgVikavolt}
+            currentAlt="Vikavolt Sprite"
+            currentName="Viola"
+            currentActualName="Vikavolt"
+            currentNumber="029"
+            currentNameColor="light-green"
+            typeNameOne="Bug"
+            typeBackgroundOne="type-tag bg-light-green"
+            typeNameTwo="Electric"
+            typeBackgroundTwo="type-tag bg-gold"
+            nature="Timid"
+            ability="Levitate"
+            item="Bright Powder" />
         </div>
 
         <h1 className="f4 db ph5 mb4 blue center lh-title">
           <img src={moonLogo} className="nb2 pr2 dib-ns db pb0-ns pb4 center w2-ns h2-ns w3 h3" alt="★" />
-          Current Moon Team - Shiny
+          Current Moon Team
         </h1>
         <div className="w-100 mb4 content-end flex flex-wrap">
           <Current
@@ -130,7 +133,7 @@ class CurrentCollection extends Component {
             ability="Keen Eye"
             item="Normalium Z" />
           <Current
-            currentImg={imgLycanroc}
+            currentImg={imgLycanrocM}
             currentAlt="Shiny Lycanroc Sprite"
             currentName="Serif"
             currentActualName="Shiny Lycanroc"

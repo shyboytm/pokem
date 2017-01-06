@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../Header';
 import CurrentCollection from '../CurrentCollection';
-import Pokedex from '../Pokedex';
+import Previous from '../Previous';
 
 class Teams extends Component {
   render() {
@@ -29,6 +29,7 @@ class Teams extends Component {
         </div>
         <div id="home-content" className="pv2 mw8 center w-90-ns w-100">
           <CurrentCollection />
+          <Previous />
         </div>
       </div>
     );
