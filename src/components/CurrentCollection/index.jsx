@@ -25,6 +25,7 @@ class CurrentCollection extends Component {
     const imgToucannon  = require('../../img/toucannon.gif');
     const imgLycanrocM  = require('../../img/lycanroc-midnight.gif');
     const imgTsareena   = require('../../img/tsareena.gif');
+    const imgAraquanid  = require('../../img/dewpider.gif');
 
     return (
       <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
@@ -159,16 +160,19 @@ class CurrentCollection extends Component {
             ability="Leaf Guard"
             item="None" />
           <Current
-            currentName="Not Caught Yet!"
-            currentActualName="Not Caught Yet!"
-            currentNameColor="black-30"
-            typeNameOne="N/A"
-            typeBackgroundOne="type-tag bg-black-30"
-            typeNameTwo="N/A"
-            typeBackgroundTwo="type-tag bg-black-30"
-            nature="N/A"
-            ability="N/A"
-            item="N/A" />
+            currentImg={imgAraquanid}
+            currentAlt="Tsareena Sprite"
+            currentName="Gadzook"
+            currentActualName="Shiny Dewpider"
+            currentNumber="104"
+            currentNameColor="blue"
+            typeNameOne="Water"
+            typeBackgroundOne="type-tag bg-blue"
+            typeNameTwo="Bug"
+            typeBackgroundTwo="type-tag bg-light-green"
+            nature="Careful"
+            ability="Water Bubble"
+            item="Mystic Water" />
           <Current
             currentName="Not Caught Yet!"
             currentActualName="Not Caught Yet!"
