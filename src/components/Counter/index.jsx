@@ -23,7 +23,7 @@ class Counter extends Component {
               <h1 className="f1">{this.state.count}</h1>
             </div>
             <a onClick={this.onClick.bind(this)}
-              className="ph5 pv3 fw9 pointer dib red f3 br-pill bg-white mt4 mb3">+</a>
+              className="noselect ph5 pv3 fw9 pointer dib red f3 br-pill bg-white mt4 mb3">+</a>
           </div>
           <div className="h2 w-100 bg-dark-red nt3 db br--bottom br3"></div>
         </div>
