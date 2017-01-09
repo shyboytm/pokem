@@ -11,7 +11,7 @@ class Header extends Component {
           </span>
           <div className="db dtc-l v-mid w-70 center w-75-l tc tr-l">
             <span className="white-70 f6 f5-l dib mr3 mr4-l lh-copy" title="Home">
-              Personal Pokemon Team and Pokedex Tracker of
+              Pokémon Resources of
               <a className="dim link white fw7" href="http://cortes.us"> Dennis Cortés</a>
             </span>
           </div>
@@ -20,7 +20,7 @@ class Header extends Component {
           <Link to="/" title="Teams" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Teams</Link>
           <Link to="/pokedex" title="Pokedex" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Pokédex</Link>
           {/* <Link to="/privacy/"  title="Privacy" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Games</Link> */}
-          <Link to="/privacy/"  title="Privacy" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Resources</Link>
+          <Link to="/counter"  title="Counter" className="pointer f6 ttu tracked-custom dib ph2 link b red hover-black">Counter</Link>
         </div>
       </div>
     );

@@ -18,18 +18,17 @@ class Teams extends Component {
             Now that I'm older, nothing is better than the nostalgia
             of completing a Pokémon story and filling the Pokédex. To go
             along with this passion, I made this little site to keep track
-            of my teams and my Pokédex for Sun and Moon in a fun and
-            customizable way.
+            of my teams, my Pokédex for Sun and Moon, and an encounter counter
+            for shinies.
           </p>
           <p className="center black-60 measure lh-copy">
             I'm currently playing the post-game of Sun with the first team below
-            and at the beginning of a shiny locke playthrough of Moon with 2/6
+            and at the beginning of a shiny locke playthrough of Moon with 4/6
             caught so far.
           </p>
         </div>
         <div id="home-content" className="pv2 mw8 center w-90-ns w-100">
           <CurrentCollection />
-          <Previous />
         </div>
       </div>
     );
