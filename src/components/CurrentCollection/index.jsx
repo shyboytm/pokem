@@ -152,7 +152,7 @@ class CurrentCollection extends Component {
             currentAlt="Tsareena Sprite"
             currentName="Stem"
             currentActualName="Shiny Tsareena"
-            currentNumber="104"
+            currentNumber="173"
             currentNameColor="green"
             typeNameOne="Grass"
             typeBackgroundOne="type-tag bg-green"
@@ -161,10 +161,10 @@ class CurrentCollection extends Component {
             item="None" />
           <Current
             currentImg={imgAraquanid}
-            currentAlt="Tsareena Sprite"
+            currentAlt="Araquanid Sprite"
             currentName="Gadzook"
             currentActualName="Shiny Dewpider"
-            currentNumber="104"
+            currentNumber="141"
             currentNameColor="blue"
             typeNameOne="Water"
             typeBackgroundOne="type-tag bg-blue"
