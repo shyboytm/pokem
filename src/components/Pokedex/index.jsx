@@ -148,9 +148,9 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="caught" pokemonName="Wishiwashi" pokemonNumber="#110" />
 
             <PokedexItem caughtOrUncaught="caught" pokemonName="Luvdisc" pokemonNumber="#111" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Corsola" pokemonNumber="#112" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Mareanie" pokemonNumber="#113" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Toxapex" pokemonNumber="#114" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Corsola" pokemonNumber="#112" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Mareanie" pokemonNumber="#113" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Toxapex" pokemonNumber="#114" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Shelder" pokemonNumber="#115" />
 
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Cloyster" pokemonNumber="#116" />
@@ -162,16 +162,16 @@ class Pokedex extends Component {
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Herdier" pokemonNumber="#121" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Stoutland" pokemonNumber="#122" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Eevee" pokemonNumber="#123" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Vaporeon" pokemonNumber="#124" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Jolteon" pokemonNumber="#125" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Vaporeon" pokemonNumber="#124" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Jolteon" pokemonNumber="#125" />
 
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Flareon" pokemonNumber="#126" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Espeon" pokemonNumber="#127" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Umbreon" pokemonNumber="#128" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Leafeon" pokemonNumber="#129" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Glaceon" pokemonNumber="#130" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Flareon" pokemonNumber="#126" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Espeon" pokemonNumber="#127" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Umbreon" pokemonNumber="#128" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Leafeon" pokemonNumber="#129" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Glaceon" pokemonNumber="#130" />
 
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Sylveon" pokemonNumber="#131" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Sylveon" pokemonNumber="#131" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Mudbray" pokemonNumber="#132" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Mudsdale" pokemonNumber="#133" />
             <PokedexItem caughtOrUncaught="caught" pokemonName="Igglybuff" pokemonNumber="#134" />
@@ -179,12 +179,12 @@ class Pokedex extends Component {
 
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Wigglytuff" pokemonNumber="#136" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Tauros" pokemonNumber="#137" />
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Miltank" pokemonNumber="#138" />
+            <PokedexItem caughtOrUncaught="caught" pokemonName="Miltank" pokemonNumber="#138" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Surskit" pokemonNumber="#139" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Masquerain" pokemonNumber="#140" />
 
-            <PokedexItem caughtOrUncaught="uncaught" pokemonName="Dewpider" pokemonNumber="#141" />
-            <PokedexItem caughtOrUncaught="caught" pokemonName="Araquanid" pokemonNumber="#142" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="Dewpider" pokemonNumber="#141" />
+            <PokedexItem caughtOrUncaught="shiny" pokemonName="Araquanid" pokemonNumber="#142" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Fomantix" pokemonNumber="#143" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Lurantis" pokemonNumber="#144" />
             <PokedexItem caughtOrUncaught="uncaught" pokemonName="Morelull" pokemonNumber="#145" />
