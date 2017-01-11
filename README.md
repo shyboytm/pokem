@@ -1,6 +1,6 @@
 #Pokem
 
-Personal Pokemon team and Pokedex tracker of Dennis Cortés.
+Pokémon team tracker, Pokedex tracker, and encounter counter of Dennis Cortés.
 
 Hosted on [pokem.cortes.us](http://pokem.cortes.us)
 
