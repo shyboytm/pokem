@@ -163,7 +163,7 @@ class CurrentCollection extends Component {
             currentImg={imgAraquanid}
             currentAlt="Araquanid Sprite"
             currentName="Gadzook"
-            currentActualName="Shiny Dewpider"
+            currentActualName="Shiny Araquanid"
             currentNumber="141"
             currentNameColor="blue"
             typeNameOne="Water"
