@@ -25,7 +25,8 @@ class CurrentCollection extends Component {
     const imgToucannon  = require('../../img/toucannon.gif');
     const imgLycanrocM  = require('../../img/lycanroc-midnight.gif');
     const imgTsareena   = require('../../img/tsareena.gif');
-    const imgAraquanid  = require('../../img/dewpider.gif');
+    const imgAraquanid  = require('../../img/araquanid.gif');
+    const imgSandshrew  = require('../../img/sandshrew-alola.gif');
 
     return (
       <div id="current" className="pv5-ns pv3 center content-end flex flex-wrap cf">
@@ -174,12 +175,14 @@ class CurrentCollection extends Component {
             ability="Water Bubble"
             item="Mystic Water" />
           <Current
-            currentName="Not Caught Yet!"
-            currentActualName="Not Caught Yet!"
-            currentNameColor="black-30"
-            typeNameOne="N/A"
-            typeBackgroundOne="type-tag bg-black-30"
-            typeNameTwo="N/A"
+            currentImg={imgSandshrew}
+            currentName="Arc"
+            currentActualName="Shiny A. Sandshrew"
+            currentNumber="151"
+            currentNameColor="light-blue"
+            typeNameOne="Ice"
+            typeBackgroundOne="type-tag bg-light-blue"
+            typeNameTwo="Steel"
             typeBackgroundTwo="type-tag bg-black-30"
             nature="N/A"
             ability="N/A"
